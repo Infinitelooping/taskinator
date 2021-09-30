@@ -25,8 +25,6 @@ var createTaskHandler = function(event) {
 
     // add entire list item to list
     tasksToDoEl.appendChild(listItemEl);
-
-    console.dir(listItemEl);
 }
 
 formEl.addEventListener("submit", createTaskHandler);
