@@ -6,6 +6,7 @@ var taskFormHandler = function(event) {
 
     event.preventDefault();
 
+    //targets the .value of the input and select tags which is the users input and stores it in our JS variables.
     var taskNameInput = document.querySelector("input[name='task-name']").value;
     var taskTypeInput = document.querySelector("select[name='task-type']").value;
 
